@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokedéx</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Montserrat&family=Outfit&family=Russo+One&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/css/reset.css" />
+
+    <link rel="stylesheet" href="src/css/styles.css" />
+
+    <link rel="stylesheet" href="src/css/responsive.css" />
+
+    <script src="src/js/index.js" defer></script>
+  </head>
+  <body>
+    <header class="epigraphs">
+      <img class="pokebola" src="src/images/pokebola.png" alt="pokebola" />
+      <h1 class="title">Pokedéx</h1>
+    </header>
+    <main class="pokemon-slider">
+      <button class="btn-arrow btn-back" id="btn-back">
+        <img src="src/images/seta.png" alt="seta voltar" />
+      </button>
+
+      <ul class="pokemons-list">
+        <li class="card select background-1">
+          <div class="information">
+            <h2 class="name">Pikachu</h2>
+            <p class="life">HP 300</p>
+          </div>
+
+          <div class="container-image">
+            <img
+              class="pokemon-image"
+              src="src/images/pikachu.png"
+              alt="Pikachu"
+            />
+          </div>
+
+          <div class="description">
+            <h3 class="title">Descrição</h3>
+            <p class="text">
+              Os Pikachus são pequenos roedores de quarenta centímetros e de
+              seis quilogramas, com um corpo redondo, pernas curtas e uma longa
+              cauda em forma de raio.
+            </p>
+          </div>
+        </li>
+
+        <li class="card background-2">
+          <div class="information">
+            <h2 class="name">Charizard</h2>
+            <p class="life">HP 800</p>
+          </div>
+
+          <div class="container-image">
+            <img
+              class="pokemon-image"
+              src="src/images/charizard.png"
+              alt="Charizard"
+            />
+          </div>
+
+          <div class="description">
+            <h3 class="title">Descrição</h3>
+            <p class="text">
+              Super competitivo, os Charlizardes adoram uma batalha, uma vez que
+              nunca vai cuspir fogo em um inimigo mais fraco a menos que seja
+              provocado ou ordenado.
+            </p>
+          </div>
+        </li>
+
+        <li class="card background-3">
+          <div class="information">
+            <h2 class="name">Mewtwo</h2>
+            <p class="life">HP 1.200</p>
+          </div>
+
+          <div class="container-image">
+            <img
+              class="pokemon-image"
+              src="src/images/mewtwo.png"
+              alt="Mewtwo"
+            />
+          </div>
+
+          <div class="description">
+            <h3 class="title">Descrição</h3>
+            <p class="text">
+              Mewtwo foi criado geneticamente em um laboratório. É uma criatura
+              com postura humanóide, mas tem algumas características felinas.
+            </p>
+          </div>
+        </li>
+      </ul>
+
+      <button class="btn-arrow" id="btn-next">
+        <img src="src/images/seta.png" alt="seta avançar" />
+      </button>
+    </main>
+  </body>
+</html>
